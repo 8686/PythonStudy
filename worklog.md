@@ -129,4 +129,16 @@
 	7.git 的简单使用
 	8.nginx的安装与简单配置
 	9.osx 系统的重装与基本操作	
+##2015-04-16
+	""" """python多行注释
+	class(base): python 继承
+	学习Werkzeug
+	学习gevent.wsgi
+	python {key:value}字典无序的k、v集合
+	python {}.get(k,d)如果字典中存在键K则list[k]否则返回d
+	python 
+	[]列表 有序序列
+	()元组 有序不可变序列
+	{}字典无序集合
+	
 	
