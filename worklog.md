@@ -140,5 +140,25 @@
 	[]列表 有序序列
 	()元组 有序不可变序列
 	{}字典无序集合
-	
+	初步了解了协程的概念
+##2015-04-17
+	git branch dev 创建dev分支
+	git checkout dev 切换都分支dev
+	git checkout -b dev 创建并切换到分支dev
+	git branch 列出所有分支当前分支前有*
+	git merge dev 合并dev分支到当前分支
+	git branch -d dev 删除分支dev
+	git init 在当前目录创建本地仓库
+	git status 显示git状态
+	git reset --hard 版本id 回退或回到将来到某个版本
+	git reset --hard HEAD^ 回退到上一个版本
+	git reset --hard HEAD^^回退到上两个版本
+	git reset --hard HEAD~100回退到上100个版本
+	git diff HEAD --readme.txt 查看 readme 工作区合版本库 最新版的区别
+	git checkout --readme.txt 撤销最后一次修改
+	git rm readme.txt 删除文件
+	git commit
+	git checkout readme.txt 找回删除文件
+	git remote origin url 添加远程仓库
+	git push -u origin master 第一次推送并关联master分支
 	
